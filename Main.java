@@ -21,19 +21,9 @@ public class Main {
         dogMap.put(myDog.name, myDog);
         dogMap.put(myDog2.name, myDog2);
 
-    
-
-        // Print the list of dogs
         System.out.println(dogList);
-        // Print the map of dogs
-        System.out.println(dogMap);
-        //calcuate ageDifference between the 2 dog objects
-        int ageDifference = calculateAgeDifference(myDog, myDog2);
-        System.out.println("The age difference between " + myDog.name +  " and " + myDog2.name + " is: " + ageDifference);
-    }
 
-    public static int calculateAgeDifference(Dog myDog, Dog myDog2){
-    return myDog.getAge() - myDog2.getAge();
+        System.out.println(dogMap);
     }
 
 }
